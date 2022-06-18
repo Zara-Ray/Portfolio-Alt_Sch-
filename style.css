@@ -1,0 +1,354 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+      position: absolute;
+      background-color:black;
+      background-size:cover;
+      font-size: 1.5em;
+      }
+  
+      header {
+          padding: 0rem;
+          display: block;
+          justify-content: space-evenly;
+          text-align: right;
+          font-size:15px;
+          color: white;
+          width:border-box;
+          height:border-box;
+      }
+  
+  h2, h5, h6{
+      text-align: center;
+      color:whitesmoke;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1em;
+      font-weight:bold;
+      text-shadow: 1px 1.5px red;
+  }
+  
+  .intro p{
+      width: 80%;
+      margin: auto;
+  }
+  
+  p {
+    text-align: center;
+    color:whitesmoke;
+    font-size:medium
+  }
+  
+  a{
+      color: yellow;
+  }
+  
+  a:hover{
+      color: aqua;
+  }
+  
+  li{
+      list-style: none;
+      display:inline-block;
+      margin-left:50px;
+      font-size: larger;
+  }
+  
+  form{
+      border: 5px solid black;
+      width: border-box;
+      height: border-box;
+      margin: 80px;
+      text-align:center;
+  }
+  
+  input {
+      width: auto;
+      margin: 25px;
+      padding: 10px;
+      border: 3px solid black;
+      text-align: center;
+  }
+  
+  label{
+      color: yellow;
+  }
+  
+  
+  h2:hover{
+      color: gold;
+  }
+  
+  h6:hover{
+      color:gold;
+      text-shadow: 1px 1px black;
+  }
+  
+  #moi{
+      border-radius: 30%;
+      height: 200px;
+      width: 200px;
+      border-color: yellow;
+  }
+  
+  .login{
+      border-radius: 50%;
+      height: 5em;
+      margin: 10px;
+      padding: 1px;
+      border: 11px solid red;
+      background-color: black;
+  }
+   .log{
+      border-radius: 80px;
+      background-color: yellow;
+   }
+  
+   .log:hover{
+       background-color:aqua;
+   }
+   
+   .logg{
+      border: 13px solid green;
+      text-align: center;
+   }
+  
+   .input{
+       width: auto;
+       margin: 5px;
+       padding: 10px;
+       border: 30px solid black;
+      }
+  
+  input, select{
+      text-align: center;
+      width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 30px;
+      font-size:100%;
+  }
+  
+  .container{
+      display:flex ;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  
+  aside{
+      display:inline-flex;
+  }
+  
+  .box{
+      width: 205px;
+      height: 100px;
+      margin: 30px;
+      display: inline-block;
+      background-color:rgb(10, 45, 83);
+      border: 1.5px solid white;
+    border-radius: 30%;
+  }
+  
+  .box:nth-child(odd){
+      height: 350px;
+  }
+  
+  .box:nth-child(even){
+      height: 480px;
+  }
+  
+  h5{
+      color:white;
+      font-size: small;
+      margin: px;
+      text-align: center;
+      text-shadow: 1px 2px black;
+  }
+  
+  .hobs{
+      color:rgb(158, 238, 104);
+      padding: 13px;
+      border: 1px solid green;
+  }
+  
+  .hobs li{
+      color:lightpink;
+  }
+  
+  pre{
+      color:white;
+      font-weight: bolder;
+      margin-left:-90px;
+      font-size:small;
+      font-style:italic;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .mark{
+      margin: auto;
+      background-color: black;
+      font-size:small;
+      font-weight: 300px;
+      color: white;
+  }
+  
+  .marky{
+      margin: auto;
+      background-color: black;
+      font-size:small;
+      font-weight: 300px;
+      color: white;
+  }
+  
+  .alt img{
+      text-align: center;
+      width: 100px;
+      height: 100px;
+      border: 3px solid black;
+  }
+  
+  .items{
+      text-align: center;
+      margin: 100px;
+  }
+  
+  .items img{
+      border-radius: 100%;
+      margin: 30px;
+      width: 150px;
+      transform: scale(0.5);
+      transition-duration: 0.2s;
+  }
+  
+  .items img:hover{
+      border: 3px solid yellow;
+      cursor: pointer;
+      transform: scale(1);
+  }
+  
+  label img {
+      transform: scale(0.5);
+      transition-duration: 0.2s;
+      }
+  label img:hover {
+      cursor: pointer;
+      transform: scale(1);
+    }
+  .message[type='text'] {
+      opacity: 0;
+      font-size: 30px;
+      transition-duration: 0.2s;
+    }
+  input[type='text']:focus {
+      opacity: 1;
+    }
+  
+  .items button{
+      border: 3px solid yellow;
+      border-radius: 30%;
+  }
+  
+  textarea{
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size:100%;
+      font-weight: 500;
+      color: white;
+  }
+
+.grid-container{
+      padding-left: 15px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      margin: 0 auto;
+      display: grid;
+      max-width: 450px;
+      grid-template-columns: 100px 100px 100px 100px;
+      grid-template-rows: repeat(6,100px);
+      gap: 30px 10px;
+      border: 1px solid rgb(13, 13, 10);
+      color: rgb(7, 10, 2);
+      font-size: 2em;
+      background-color: rgb(181, 187, 192);
+      box-shadow: 3px 5px
+  }
+
+  .grid-container input{
+      color: black;
+      background-color: gray;
+      border: none;
+      font:bolder;
+      text-align: right;
+  }
+
+  .grid-container ::placeholder{
+      text-align: right;
+  }
+
+.d-1{
+    border: 1px solid rgb(10, 10, 8); 
+    box-shadow: 5px 5px;
+    text-align: center;
+    background:rosybrown;
+  }
+
+.d {
+    grid-column: 1/ 5;
+    grid-row: 1;
+    box-shadow: 5px 5px;
+    text-align: right;
+    background: gray;
+  }
+
+.d-16{
+    border: 1px solid rgb(10, 10, 8); 
+    box-shadow: 5px 5px;
+    text-align: center;
+    background: red; 
+}
+
+.d-1:hover{
+  color:aqua;
+}
+.d-16:hover{
+  color:aqua;
+}
+
+table{
+    margin: 0 auto;
+    padding: 10px;
+    border: 13px solid black;
+    background-color: grey;
+    height: border-box;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  box-shadow: 3px 3px;
+  font-size: 1em;
+  background:brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#display{
+    text-align:right;
+    width: 350px;
+}
+
+button:hover{
+    background: aqua;
+}
+
+.btn{
+    background:rgb(44, 44, 111);
+}
+
+
+@media screen and (max-width:600px){
+    
+}
