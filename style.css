@@ -157,11 +157,11 @@ html, body {
   }
   
   .box:nth-child(odd){
-      height: 350px;
+      height: 450px;
   }
   
   .box:nth-child(even){
-      height: 480px;
+      height: 580px;
   }
   
   h5{
